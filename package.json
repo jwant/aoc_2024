@@ -2,12 +2,16 @@
   "name": "aoc_2024",
   "packageManager": "yarn@4.3.1",
   "scripts": {
-    "start": "ts-node src/day1/solution.ts"
+    "start": "ts-node src/${0}/solution.ts"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "rsc": "^1.0.3",
     "ts-node": "^10.9.2",
     "tsc": "^2.0.4",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
   }
 }
